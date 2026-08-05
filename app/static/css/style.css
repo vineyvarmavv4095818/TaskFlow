@@ -1,0 +1,261 @@
+body{
+    margin: 0;
+    font-family: serif;
+    background: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+/* Header */
+header{
+    background: linear-gradient(to_right, #0062E6, #33AeFF);
+    color: white;
+    padding: 15px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    color: black;
+    margin: 0;
+    font-family:serif;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+header span {
+    color: #47c200;
+    font-size: 20px;
+    font-family:serif;
+}
+nav {
+    text-align: center;
+    margin-top: 15px;
+}
+
+nav a {
+    color: rgb(0, 17, 255);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover{
+    color:#ffd700;
+}
+
+/* Footer */
+
+footer {
+    background-color: #343a40;
+    color: #ccc;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 60px;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Flash messages */
+
+.flash.success {color: green; font-size: 20px;}
+.flash.danger {color:red; font-size: 20px;}
+.flash.info {color: blue; font-size: 20px;}
+
+/* Login form */
+
+.login-box {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login-box h2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: serif;
+    font-size: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+    font-size: 20px;
+}
+
+.form-group input {
+    font-family: serif;
+    width: 300px;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 6px;
+}
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    font-size: 19px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: serif;
+}
+.login-box p{
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.task-box {
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.task-box h2 {
+    font-family: serif;
+}
+.task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.task-form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 18px;
+    font-family: serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.task-form .btn {
+    padding: 12px;
+    font-size: 16px;
+    width: 200px;
+}
+
+.task-table {
+    width: 600px;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 18px;
+}
+
+.task-table th
+.task-table td{
+    text-align: center;
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+.task-table th {
+    background-color: #f2f2f2;
+}
+
+
+/* .btn-delete {
+    background-color: #dc3545;
+    color: white;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    text-decoration: none;
+} */
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+
+.badge {
+    padding: 1px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+}
+
+.badge.pending {
+    background-color: #ffc107;
+}
+
+.badge.working {
+    background-color: #17a2b8;
+}
+
+.badge.done {
+    background-color: #28a745;
+}
+
+.btn-small {
+    font-size: 12px;
+    padding: 6px 12px;
+    border: none;
+    background-color: #6c767d;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-small:hover {
+    background-color: #495057;
+}
+
+.btn-clear {
+    background-color: #dc3545;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.btn-clear:hover {
+    background-color: #c82333;
+}
+
+.auth-box {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.auth-box p{
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.auth-box h2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: serif;
+    font-size: 30px;
+}
