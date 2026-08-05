@@ -33,7 +33,7 @@ header span {
     font-family:serif;
 }
 nav {
-    text-align: center;
+    text-align: right;
     margin-top: 15px;
 }
 
@@ -70,12 +70,12 @@ footer p {
 
 .flash.success {color: green; font-size: 20px;}
 .flash.danger {color:red; font-size: 20px;}
-.flash.info {color: blue; font-size: 20px;}
+.flash.info {color: rgb(2, 99, 245); font-size: 20px;}
 
 /* Login form */
 
 .login-box {
-    max-width: 400px;
+    max-width: 500px;
     margin: 20px auto;
     padding: 30px;
     background-color: white;
@@ -240,7 +240,7 @@ footer p {
 }
 
 .auth-box {
-    max-width: 400px;
+    max-width: 500px;
     margin: 20px auto;
     padding: 30px;
     background-color: white;
