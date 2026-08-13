@@ -10,7 +10,6 @@
         <div class="container">
             <h1>TaskFlow App</h1>
             <nav>
-                <!-- <a href="{{ url_for('tasks.view_tasks') }}">Home</a> -->
                 {% if 'user' in session %}
                     <span>Welcome, {{ session['user'] }}!</span>
                     <a href="{{ url_for('auth.logout') }}">Logout</a>
